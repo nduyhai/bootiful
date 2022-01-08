@@ -4,3 +4,7 @@
 [submodule "bootiful-greeting"]
 	path = bootiful-greeting
 	url = git@github.com:nduyhai/bootiful-greeting.git
+[submodule "submodule.bootiful-greeting.path"]
+	path = bootiful-greeting
+	url = git@github.com:nduyhai/bootiful-greeting.git
+	branch = main

@@ -9,6 +9,6 @@ git config -f .gitmodules --get-regexp '^submodule\..*\.path$' |
         url_key=$(echo $path_key | sed 's/\.path/.url/')
         branch_key=$(echo $path_key | sed 's/\.path/.branch/')
         url=$(git config -f .gitmodules --get "$url_key")
-        branch=$(git config -f .gitmodules --get "$branch_key" || echo "master")
+        branch=$(git config -f .gitmodules --get "$branch_key" || echo "main")
         git submodule add -b $branch --name $name $url $path || continue
     done
