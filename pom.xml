@@ -21,6 +21,7 @@
     <java.version>11</java.version>
     <spring-boot-admin.version>2.6.0</spring-boot-admin.version>
     <spring-cloud.version>2021.0.0</spring-cloud.version>
+    <springdoc.version>1.6.4</springdoc.version>
   </properties>
 
   <dependencyManagement>
@@ -38,6 +39,22 @@
         <version>${spring-boot-admin.version}</version>
         <type>pom</type>
         <scope>import</scope>
+      </dependency>
+
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-ui</artifactId>
+        <version>${springdoc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-webmvc-core</artifactId>
+        <version>${springdoc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-security</artifactId>
+        <version>${springdoc.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>
