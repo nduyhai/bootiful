@@ -43,6 +43,7 @@
   </dependencyManagement>
 
   <modules>
+    <module>bootiful-common-security</module>
     <module>bootiful-authorization</module>
     <module>bootiful-greeting</module>
     <module>bootiful-admin</module>
