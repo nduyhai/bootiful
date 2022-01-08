@@ -1,20 +1,20 @@
 [submodule "bootiful-authorization"]
 	path = bootiful-authorization
 	url = git@github.com:nduyhai/bootiful-authorization.git
-[submodule "bootiful-greeting"]
-	path = bootiful-greeting
-	url = git@github.com:nduyhai/bootiful-greeting.git
 	branch = main
-[submodule "submodule.bootiful-greeting.path"]
+[submodule "bootiful-greeting"]
 	path = bootiful-greeting
 	url = git@github.com:nduyhai/bootiful-greeting.git
 	branch = main
 [submodule "bootiful-admin"]
 	path = bootiful-admin
 	url = git@github.com:nduyhai/bootiful-admin.git
+	branch = main
 [submodule "bootiful-gateway"]
 	path = bootiful-gateway
 	url = git@github.com:nduyhai/bootiful-gateway.git
+	branch = main
 [submodule "bootiful-common-security"]
 	path = bootiful-common-security
 	url = git@github.com:nduyhai/bootiful-common-security.git
+	branch = main
