@@ -1,0 +1,3 @@
+[submodule "bootiful-authorization"]
+	path = bootiful-authorization
+	url = git@github.com:nduyhai/bootiful-authorization.git
