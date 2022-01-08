@@ -37,5 +37,7 @@
   <modules>
     <module>bootiful-authorization</module>
     <module>bootiful-greeting</module>
+    <module>bootiful-admin</module>
+    <module>bootiful-gateway</module>
   </modules>
 </project>

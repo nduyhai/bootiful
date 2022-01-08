@@ -8,3 +8,9 @@
 	path = bootiful-greeting
 	url = git@github.com:nduyhai/bootiful-greeting.git
 	branch = main
+[submodule "bootiful-admin"]
+	path = bootiful-admin
+	url = git@github.com:nduyhai/bootiful-admin.git
+[submodule "bootiful-gateway"]
+	path = bootiful-gateway
+	url = git@github.com:nduyhai/bootiful-gateway.git
