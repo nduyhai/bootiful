@@ -20,10 +20,18 @@
   <properties>
     <java.version>11</java.version>
     <spring-boot-admin.version>2.6.0</spring-boot-admin.version>
+    <spring-cloud.version>2021.0.0</spring-cloud.version>
   </properties>
 
   <dependencyManagement>
     <dependencies>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>${spring-cloud.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <dependency>
         <groupId>de.codecentric</groupId>
         <artifactId>spring-boot-admin-dependencies</artifactId>
