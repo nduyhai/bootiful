@@ -1,0 +1,16 @@
+version: '3.1'
+services:
+  bootiful_postgresql:
+    image: postgres:14.1-alpine
+    restart: on-failure
+    container_name: bootiful_postgresql
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: bootiful_authorization
+    ports:
+      - "5432:5432"
+  bootiful_redis:
+    image: redis
+    ports:
+      - "6379:6379"

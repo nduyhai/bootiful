@@ -1,3 +1,6 @@
 [submodule "bootiful-authorization"]
 	path = bootiful-authorization
 	url = git@github.com:nduyhai/bootiful-authorization.git
+[submodule "bootiful-greeting"]
+	path = bootiful-greeting
+	url = git@github.com:nduyhai/bootiful-greeting.git
